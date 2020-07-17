@@ -5,6 +5,7 @@ function permutations (input, targetLength) {
 function* getPermutationsRecursively (input, set, targetLength) {
   if (set.length === targetLength) {
     yield set
+    return
   }
 
   for (let element of input) {

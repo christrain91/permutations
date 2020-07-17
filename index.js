@@ -1,3 +1,9 @@
-const seq = require('./src/permutations')
+const permutations = require('./src/permutations')
 
-console.log(seq(['a', 'b', 'c', 'd'], 3))
+const timerLabel = 'get permutations'
+console.time(timerLabel)
+
+const result = permutations(['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'], 10)
+
+console.timeEnd(timerLabel)
+console.log('result count: ', result.length)
