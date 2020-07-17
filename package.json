@@ -1,0 +1,15 @@
+{
+  "name": "permutations",
+  "version": "1.0.0",
+  "description": "Calculates all permutations of the given input with a target permutation length",
+  "main": "seq.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "author": "PCS-Publishing",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
+}
